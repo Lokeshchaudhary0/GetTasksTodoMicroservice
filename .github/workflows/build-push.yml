@@ -15,7 +15,7 @@ jobs:
       IMAGE_NAME: todo-get-tasks-api
       IMAGE_TAG: v1
       ACR_NAME: containerRegistryloukesh
-      ACR_LOGIN_SERVER: acrdevtodoapp01.azurecr.io
+      ACR_LOGIN_SERVER: containerregistryloukesh.azurecr.io
 
     steps:
       - name: Checkout code
