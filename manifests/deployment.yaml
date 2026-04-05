@@ -17,3 +17,6 @@ spec:
         image: containerregistryloukesh.azurecr.io/todo-get-tasks-api:v1
         ports:
         - containerPort: 8000
+        env:
+          - name: CONNECTION_STRING
+            value: "Driver={ODBC Driver 17 for SQL Server};Server=your-server;Database=your-db;Uid=user;Pwd=password;"
